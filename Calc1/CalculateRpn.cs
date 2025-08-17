@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Calc1.Models;
-using static Calc1.Models.RpnModel.TypeofToken;
-namespace Calc1
+using ModernCalculator.Models;
+using static ModernCalculator.Models.RpnModel.TypeofToken;
+
+namespace ModernCalculator
 {
     /// <summary>
     /// This will step through an RPN formatted string and return the result of the calculation.

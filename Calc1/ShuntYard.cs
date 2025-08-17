@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Calc1.Models;
-using static Calc1.Models.RpnModel.TypeofToken;
-using static Calc1.Models.OperatorPrecedence.Associative;
+using ModernCalculator.Models;
+using static ModernCalculator.Models.RpnModel.TypeofToken;
+using static ModernCalculator.Models.OperatorPrecedence.Associative;
 
-namespace Calc1
+namespace ModernCalculator
 {
     /// <summary>
     /// The ShuntYard will pull off numbers and operators and place them in a list in RPN order.

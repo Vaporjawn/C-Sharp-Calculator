@@ -1,4 +1,4 @@
-﻿namespace Calc1.Models
+﻿namespace ModernCalculator.Models
 {
     public class RpnModel
     {
@@ -7,7 +7,7 @@
             IsOperator,
             IsValue
         }
-        public string Token { get; set; }
+        public string Token { get; set; } = string.Empty;
         public TypeofToken TokenType { get; set; }
     }
 }

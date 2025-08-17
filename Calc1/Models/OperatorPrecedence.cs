@@ -1,4 +1,4 @@
-﻿namespace Calc1.Models
+﻿namespace ModernCalculator.Models
 {
     public class OperatorPrecedence
     {
@@ -8,7 +8,7 @@
             IsLeft,
             IsRight
         }
-        public string Operator { get; set; }
+        public string Operator { get; set; } = string.Empty;
         public int Precedence { get; set; }
         public Associative Associativity { get; set; }
     }
